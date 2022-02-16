@@ -18,13 +18,15 @@ print("He would not ever let them have their,",favorite_fish,"to eat.   ")
 print("They were all very hungry and wanted to run away and go into the city where they new they could hunt and find,",favorite_fish,"to eat easily.  ")
 print("As these colorful felines are trying to decide when they should break-out, one of the cats,",middle_name,",yells out, we will leave at,",lucky_number,".  ")
 
+
 print("\nWhen it finally became,",lucky_number,"the 5 cats broke free and took off towards the city as fast as their little feet would move.  ")
 print("The whole time they were running,",middle_name,"kept screamin,I cannot wait to eat some,",favorite_fish,"!  ")
 print("\nAs they were coming around the corner, they could see a bowling alley coming up.  ")
+allowCats=input("\nShould the cats go inside the bowling alley?   ")
+
 print("While running,",middle_name,"looked back and saw their master running after them.   ")
 print("They went into the bowling alley only to find there was a sushi bar ahead. ")
 print("\nThey ate and ate not thinking about the,",favorite_fish,"they were going after.  ")
-
 print("As the cats are coming out of the bowling alley,",middle_name,"screams out loudly that mean old man was catching up with them!  ")
 print("The 5,",eye_color,"cats see a trash can and they do not know what to do? ")
 print("\nThe poor cats longed to make it to,",dream_vacation,"and eat all the,",favorite_fish,"they could find.  ")
