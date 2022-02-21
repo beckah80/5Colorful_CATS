@@ -21,7 +21,7 @@ print("When it finally became,",lucky_number, "the 5 cats broke free and took of
 print("The whole time they were running,",middle_name, "kept screamin,I cannot wait to eat some,",favorite_fish,"!  ")
 print("As they were coming around the corner, they could see a bowling alley coming up.  ")
                                                                          
-goIntoAlley = input("\nShould the " + str(lucky_number) + "cats go into the bowling alley?  Type yes or no:  ")
+goIntoAlley = input("\nShould the cats go into the bowling alley?  Type yes or no:  ")
 
 if goIntoAlley == "yes":
     print("\nThey went into the bowling alley only to find there was a sushi bar ahead. ")
@@ -35,7 +35,22 @@ else:
     print("Then the cat,",middle_name,"looks back and let's out a loud squeel.  ")
     print("The mean old man was catching up with the cats and they were hungry and afraid.")
 
-hideInTrash = input("Should the cats hide in the trashcans?  Type yes or no:  ")
+hideInTrash = input("\nShould the cats hide in the trashcans?  Type yes or no:  ")
+
+if hideInTrash == "yes":
+    print("\nThe cats saw that they were only 0.1 miles from,",dream_vacation,"so they jumped into the smelly trash cans to hide from their master that was chasing after them closely.  ")
+    print("They noticed how terrible it smelled and was holding their breathe trying to let their master run past them. ")
+    print("Suddenly,",middle_name,"says, I don't think I can make it in here much longer! It smells so bad!! ")
+    print("Just then the cats all magically turned into,",favorite_color,"and they were all confused as to why this happened. ")
+    print("As they were wondering how this could have happened,",middle_name,"yells out Let's go! Now our master will never know who we are. ")
+    print("The cats jump out and their master turned around to look at them but kept running because he did not think that they were his runaway cats. ")
+    print("The cats arrived at,",dream_vacation,"and they were free forever to hunt for their favorite meal,",favorite_fish,"for the rest of their lives. ")
+
+else:
+    print("The cats were afraid of the smelly trashcans because they did not want to smell like the stinch that came from the trash cans as it did. ")
+    print("Having been nearly choked to death by the smell coming out of the trash cans, these,",eye_color," cats continue running trying to make it to,",dream_vacation," so they could have a feast on,",favorite_fish," no longer starving again. ")
+    print("Just then, as the,",eye_color," cats thought they could see a sign ahead that read:,",dream_vacation,".")
+
 
 
 
