@@ -49,7 +49,8 @@ if hideInTrash == "yes":
 else:
     print("The cats were afraid of the smelly trashcans because they did not want to smell like the stinch that came from the trash cans as it did. ")
     print("Having been nearly choked to death by the smell coming out of the trash cans, these,",eye_color," cats continue running trying to make it to,",dream_vacation," so they could have a feast on,",favorite_fish," no longer starving again. ")
-    print("Just then, as the,",eye_color," cats thought they could see a sign ahead that read:,",dream_vacation,".")
+    print("Just then, as the,",eye_color," cats thought they could see a sign ahead that read:,",dream_vacation," straight ahead.")
+    print("They were running as fast as they could move their feet, but their master caught up to them and made them return home. ")
 
 
 
