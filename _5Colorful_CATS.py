@@ -1,8 +1,9 @@
-print("Hello, my friend1! I have a fun and adventurous game for you to play!  ")
+print("Hello, my friend! I have a fun and adventurous game for you to play!  ")
 print("First, I will ask you a few questions and your answers will make the story!  ")
 print("Be sure that you press the enter key after every response, please. Are you ready?  ")
 print("Alright then, let's go!!  ")
 input("\nPress the enter key to continue...")
+
 
 eye_color = input("\nWhat color are your eyes:  ")
 middle_name = input("\nWhat is your middle name:  ")
@@ -51,7 +52,16 @@ else:
     print("Having been nearly choked to death by the smell coming out of the trash cans, these,",eye_color," cats continue running trying to make it to,",dream_vacation," so they could have a feast on,",favorite_fish," no longer starving again. ")
     print("Just then, as the,",eye_color," cats thought they could see a sign ahead that read:,",dream_vacation," straight ahead.")
     print("They were running as fast as they could move their feet, but their master caught up to them and made them return home. ")
+    print("\nThe poor cats will never get to eat the meal they craved so bad!  ")
 
+if goIntoAlley =="yes" and hideInTrash =="yes":
+    print("The cats had a run for their money getting away from the mean old man. ")
+    print("\nThey struggled to find,",dream_vacation,"and,",favorite_fish,"because the cats had to hide in different places then they entended.")
+elif goIntoAlley =="no" and hideInTrash =="no":
+    print("\nThe cats were so afraid that they would get caught by the mean old man, so they kept running not stopping for anything.")
+    print("They could not think of anything but the,",favorite_fish,"and getting to,",dream_vacation,".")
+else:
+    print("hello world")
 
 
 
