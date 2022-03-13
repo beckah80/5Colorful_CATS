@@ -61,7 +61,7 @@ elif goIntoAlley =="no" and hideInTrash =="no":
     print("\nThe cats were so afraid that they would get caught by the mean old man, so they kept running not stopping for anything.")
     print("They could not think of anything but the,",favorite_fish,"and getting to,",dream_vacation,".")
 else:
-    print("hello world")
+    print("The cats all just needed some,",favorite_fish,"but it was a mystery whether they would find the way there?  ")
 
 
 
