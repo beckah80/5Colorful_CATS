@@ -1,14 +1,3 @@
-import sysconfig
-import timeit
-def slowprint(string):
-    for char in range(len(string)):
-        print(string[char],end="")
-        time.sleep(1./35)
-
-
-
-
-
 print("Hello, my friend! I have a fun and adventurous game for you to play!  ")
 print("First, I will ask you a few questions and your answers will make the story!  ")
 print("Be sure that you press the enter key after every response, please. Are you ready?  ")
