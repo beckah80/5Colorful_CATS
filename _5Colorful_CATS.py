@@ -1,16 +1,45 @@
+import sysconfig
+import timeit
+def slowprint(string):
+    for char in range(len(string)):
+        print(string[char],end="")
+        time.sleep(1./35)
+
+
+
+
+
 print("Hello, my friend! I have a fun and adventurous game for you to play!  ")
 print("First, I will ask you a few questions and your answers will make the story!  ")
 print("Be sure that you press the enter key after every response, please. Are you ready?  ")
 print("Alright then, let's go!!  ")
 input("\nPress the enter key to continue...")
 
-
+ 
 eye_color = input("\nWhat color are your eyes:  ")
+while (len(eye_color) == 0):
+    eye_color = input("Please enter eye color:  ")
+
+
 middle_name = input("\nWhat is your middle name:  ")
+while (len(middle_name) == 0):
+    middle_name = input("Enter your middle name:  ")
+
 favorite_color = input("\nWhat is your favorite color:  ")
+while (len(favorite_color) == 0):
+    favorite_color = input("Please enter your favorite color:  ")
+
 lucky_number  = input("\nWhat is your lucky number:  ")
+while (len(lucky_number) == 0):
+    lucky_number = input("Please enter your lucky number:  ")
+
 dream_vacation = input("\nWhere is your dream vacation:  ")
+while (len(dream_vacation) == 0):
+    dream_vacation = input("Please enter your dream vacation:  ")
+
 favorite_fish  = input("\nWhat is your favorite kind of fish:  ")
+while (len(favorite_fish) == 0):
+    favorite_fish = input("Please enter your favorite fish:  ")
 
 print("\nLet's get going!!!  ")
 
@@ -23,6 +52,8 @@ print("The whole time they were running,",middle_name, "kept screamin,I cannot w
 print("As they were coming around the corner, they could see a bowling alley coming up.  ")
                                                                          
 goIntoAlley = input("\nShould the cats go into the bowling alley?  Type yes or no:  ")
+while (len(goIntoAlley) == 0):
+    goIntoAlley = input("Please enter yes or no:  ")
 
 if goIntoAlley == "yes":
     print("\nThey went into the bowling alley only to find there was a sushi bar ahead. ")
@@ -37,6 +68,9 @@ else:
     print("The mean old man was catching up with the cats and they were hungry and afraid.")
 
 hideInTrash = input("\nShould the cats hide in the trashcans?  Type yes or no:  ")
+while(len(hideInTrash) == 0):
+    hideInTrash = input ("Please enter yes or no:  ")
+    
 
 if hideInTrash == "yes":
     print("\nThe cats saw that they were only 0.1 miles from,",dream_vacation,"so they jumped into the smelly trash cans to hide from their master that was chasing after them closely.  ")
