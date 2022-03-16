@@ -79,12 +79,13 @@ else:
 
 if goIntoAlley =="yes" and hideInTrash =="yes":
     print("The cats had a run for their money getting away from the mean old man. ")
-    print("\nThey struggled to find,",dream_vacation,"and,",favorite_fish,"because the cats had to hide in different places then they entended.")
+    print("\nThey struggled to find,",dream_vacation,"and,",favorite_fish,"because the cats had to hide in different places.")
 elif goIntoAlley =="no" and hideInTrash =="no":
     print("\nThe cats were so afraid that they would get caught by the mean old man, so they kept running not stopping for anything.")
     print("They could not think of anything but the,",favorite_fish,"and getting to,",dream_vacation,".")
 else:
     print("The cats all just needed some,",favorite_fish,"but it was a mystery whether they would find the way there?  ")
+    print("\nDon't you wish that you had a cat?  ")
 
 
 
